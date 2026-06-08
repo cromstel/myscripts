@@ -2,6 +2,10 @@
 ## VERSION
 1.1.0
 
+**Author:** BNP Paribas IT  
+**Date Created:** 2026-06-08  
+**Date Modified:** 2026-06-08
+
 ## Overview
 PowerShell script to audit folder structures under a defined root path and export results to CSV.
 
