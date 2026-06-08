@@ -10,7 +10,7 @@ PowerShell script to scan, analyze, and report folder structures with up to 3 le
 
 ## Features
 
-- Scans `K:\FINANCE\FINANCE INTERNAL\Controlling` up to 3 child levels
+- Scans `K:\FINANCE\FINANCE INTERNAL` up to 3 child levels
 - Records folder metadata: path, parent, name, depth, subfolder count, timestamps
 - Exports results to a timestamped CSV file under `.\AuditReports\`
 - Displays a real-time progress bar during scanning

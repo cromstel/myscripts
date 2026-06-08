@@ -2,7 +2,7 @@
 ## VERSION
 1.1.0
 
-**Author:** BNP Paribas IT  
+**Author:** Samuel Lamptey (BNP Paribas IT)  
 **Date Created:** 2026-06-08  
 **Date Modified:** 2026-06-08
 
@@ -10,7 +10,7 @@
 PowerShell script to audit folder structures under a defined root path and export results to CSV.
 
 ## Root Path
-`K:\FINANCE\FINANCE INTERNAL\Controlling`
+`K:\FINANCE\FINANCE INTERNAL`
 
 ## Scope
 - Enumerates all directories up to **3 levels deep** from the root path.

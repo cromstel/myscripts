@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Audits folders under K:\FINANCE\FINANCE INTERNAL\Controlling up to 3 levels deep and exports results to CSV.
+    Audits folders under K:\FINANCE\FINANCE INTERNAL up to 3 levels deep and exports results to CSV.
 .VERSION
     1.1.0
 #>
@@ -9,7 +9,7 @@ $ErrorActionPreference = 'SilentlyContinue'
 $ScriptVersion = '1.1.0'
 $ScriptVersion = '1.0.0'
 
-$RootPath = 'K:\FINANCE\FINANCE INTERNAL\Controlling'
+$RootPath = 'K:\FINANCE\FINANCE INTERNAL'
 $scriptDir = $PSScriptRoot
 if (-not $scriptDir) { $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path }
 $outputDir = Join-Path $scriptDir 'AuditReports'
