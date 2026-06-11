@@ -1,4 +1,21 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300"><defs><linearGradient id="P" gradientUnits="userSpaceOnUse"/><linearGradient id="g1" x2="1" href="#P" gradientTransform="matrix(1200,0,0,300,0,0)"><stop stop-color="#0f172a"/><stop offset=".5" stop-color="#1e293b"/><stop offset="1" stop-color="#0f172a"/></linearGradient><linearGradient id="g2" x2="1" href="#P" gradientTransform="matrix(1120,0,0,220,40,40)"><stop stop-color="#3b82f6"/><stop offset="1" stop-color="#06b6d4"/></linearGradient><linearGradient id="g3" x2="1" href="#P" gradientTransform="matrix(NaN,NaN,NaN,NaN,NaN,NaN)"><stop stop-color="#3b82f6"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs><style>tspan{white-space:pre}.a{fill:url(#g1)}.b{opacity:.6;fill:none;stroke:url(#g2);stroke-width:2}.c{font-size: 52px;fill: #e2e8f0;font-family: "Segoe  UI"}.d{font-size: 22px;fill: #94a3b8;font-family: "Segoe  UI"}.e{font-size: 18px;fill: #64748b;font-family: "Segoe  UI"}.f{opacity:.8;fill:#3b82f6}.g{opacity:.8;fill:#06b6d4}.h{opacity:.4;stroke:url(#g3)}</style><path fill-rule="evenodd" class="a" d="m0 0h1200v300h-1200z"/><path fill-rule="evenodd" class="b" d="m56 40h1088c8.8 0 16 7.2 16 16v188c0 8.8-7.2 16-16 16h-1088c-8.8 0-16-7.2-16-16v-188c0-8.8 7.2-16 16-16z"/><text transform="translate(600,110)"><tspan x="-215.6" y="0" class="c">Folder Audit Tool
-</tspan></text><text transform="translate(600,165)"><tspan x="-346.7" y="0" class="d">PowerShell script to scan, analyze, and report folder structures
-</tspan></text><text transform="translate(600,210)"><tspan x="-141.4" y="0" class="e">K:\FINANCE\FINANCE INTERNAL</tspan><tspan  y="0" class="e">
-</tspan></text><path fill-rule="evenodd" class="f" d="m80 244c-2.2 0-4-1.8-4-4 0-2.2 1.8-4 4-4 2.2 0 4 1.8 4 4 0 2.2-1.8 4-4 4z"/><path fill-rule="evenodd" class="g" d="m1120 244c-2.2 0-4-1.8-4-4 0-2.2 1.8-4 4-4 2.2 0 4 1.8 4 4 0 2.2-1.8 4-4 4z"/><path fill-rule="evenodd" class="h" d="m90 240h1020"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect x="40" y="40" width="1120" height="220" rx="16" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.6"/>
+  <text x="600" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" fill="#e2e8f0" text-anchor="middle">Folder Audit Tool</text>
+  <text x="600" y="165" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#94a3b8" text-anchor="middle">PowerShell script to scan, analyze, and report folder structures</text>
+  <text x="600" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#64748b" text-anchor="middle">K:\FINANCE\FINANCE INTERNAL</text>
+  <circle cx="80" cy="240" r="4" fill="#3b82f6" opacity="0.8"/>
+  <circle cx="1120" cy="240" r="4" fill="#06b6d4" opacity="0.8"/>
+  <line x1="90" y1="240" x2="1110" y2="240" stroke="url(#accent)" stroke-width="1" opacity="0.4"/>
+</svg>
