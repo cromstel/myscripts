@@ -355,10 +355,9 @@ function Invoke-ShareDiscovery {
 
     foreach ($share in $shareList) {
         $shareIdx++
-        $sharePct = if ($shareTotal -gt 0) { [int](($shareIdx / $shareTotal) * 100) } else { 0 }
         Write-Progress -Activity "Phase 1: Share discovery on $Hostname" `
-            -Status "$sharePct% - $shareIdx / $shareTotal shares | $($share.Name)" `
-            -PercentComplete $sharePct
+            -Status "$shareIdx / $shareTotal shares | $($share.Name)" `
+            -PercentComplete $(if ($shareTotal -gt 0) { [int](($shareIdx / $shareTotal) * 100) } else { 0 })
 
         $isSystem = $systemShares.Contains($share.Name)
         if ($ExcludeSystem -and $isSystem) { continue }
@@ -889,7 +888,7 @@ function Invoke-FullScan {
             if (($sw.ElapsedMilliseconds - $lastUpdateMs) -ge 200 -or ($processed % 50) -eq 0 -or $processed -eq $total) {
                 $pct = [int](($processed / $total) * 100)
                 Write-Progress -Activity $activity `
-                    -Status "$pct% - $processed / $total files | HIGH:$($Script:Stats.DetectionHigh) MED:$($Script:Stats.DetectionMedium) Vault:$($Script:Stats.VaultFiles)" `
+                    -Status "$processed / $total files | HIGH:$($Script:Stats.DetectionHigh) MED:$($Script:Stats.DetectionMedium) Vault:$($Script:Stats.VaultFiles)" `
                     -PercentComplete $pct -CurrentOperation $file.FullName
                 $lastUpdateMs = $sw.ElapsedMilliseconds
             }
@@ -1121,4 +1120,4 @@ function Main {
     Write-SummaryFile -OutputDir $Script:OutputDir -Hostname $Hostname -Targets $targetArray -StartTime $startTime
 }
 
-Main
+Main
