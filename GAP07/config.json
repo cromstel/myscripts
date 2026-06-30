@@ -1,0 +1,13 @@
+{
+    "AdditionalScanPaths": [],
+
+    "MaxFileSizeMB": 50,
+    "MaxDepth": 10,
+    "ThrottleMs": 5,
+
+    "ExcludeSystemShares": true,
+    "ExcludeSystemPaths": true,
+    "ExcludeEncryptedFiles": true,
+    "ExcludeTempPaths": true,
+    "ScanDiscoveredShares": false
+}
